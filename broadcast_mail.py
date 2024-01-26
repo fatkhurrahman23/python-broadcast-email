@@ -33,7 +33,7 @@ def login_to_email(server, mail_account, password):
 # TAMBAH FILE ATTACHMENT
 def add_attachments(msg, team):
     
-    dir = "attachment file directory"
+    dir = "your_file_directory"
     filenames = glob.glob(f"{dir}{team}*")
     for filename in filenames:
         with open(filename, "rb") as binary_file:
