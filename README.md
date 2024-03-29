@@ -1,3 +1,4 @@
+
 # **Broadcast Email using python SMTP**
 
 ## **Description**
@@ -43,6 +44,11 @@ This broadcast email program uses the `smtplib` python library to send emails. T
 </details>
 
 
-
-
-
+## **How to use**
+1. Make sure your Google account has 2 Factor Authentication (2FA) **enabled**.  If not, you can visit the following [link](https://support.google.com/accounts/answer/185839)
+2. Open your [Google Account](https://myaccount.google.com/). Then,  search '*application password*' in the search bar.
+![Search application password](image/image-1.png "Search application password")
+3. Set your app password. and give it a name
+![Set name](image/image-2.png "Set name")
+4. Generate a password, and assign it to the `password` variable
+![Copy the password!](image/image-3.png "Copy the password!")
